@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+
+body {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(43, 42, 40);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    height: 50%;
+    width: 80%;
+    background-color: rgb(56, 39, 33);
+    color: azure;
+    font-size: 25px;
+    border: 1px solid yellow;
+}
